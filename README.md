@@ -71,6 +71,7 @@ Notably, you need to implement:
 - `load_generated_outputs()` for loading the model outputs,
 - `render()` for rendering the inputs in HTML,
 - `get_info()` returning information about your dataset.
+And then register the classes in `DATASET_CLASSES` in `factgenie/loaders/__init__.py`.
 
 You can get inspired by the example datasets in [factgenie/loaders/dataset.py](factgenie/loaders/dataset.py).
 
